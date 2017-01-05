@@ -26,6 +26,7 @@ $ ws -d dist/prod/ --spa index.html
 #open http://127.0.0.1:8000 in your browser (optional)
 ```
 
+
 You'll see runtime error similar to:
 
 ```
@@ -47,3 +48,14 @@ Error: Token must be defined!
     at e.placeComponentIntoOutlet (http://127.0.0.1:8000/js/app.js?1483575161336:25:25200)
     at e.activateRoutes (http://127.0.0.1:8000/js/app.js?1483575161336:25:24801)
 ```
+
+
+NOTE: both bundled
+```
+$ npm start
+```
+and non-bundled
+```
+$ npm run build.prod
+```
+JIT builds work fine
