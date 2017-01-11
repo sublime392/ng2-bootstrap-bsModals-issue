@@ -26,6 +26,7 @@ $ ws -d dist/prod/ --spa index.html
 #open http://127.0.0.1:8000 in your browser (optional)
 ```
 
+![bsmodal_issue](bsModal_issue.png)
 
 You'll see runtime error similar to:
 
