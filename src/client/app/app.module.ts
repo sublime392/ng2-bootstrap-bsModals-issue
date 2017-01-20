@@ -5,7 +5,7 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 
-import { ModalModule } from 'ng2-bootstrap';
+import { ModalModule } from './bs/modal/modal.module';
 
 @NgModule({
   imports: [BrowserModule, HttpModule, AppRoutingModule, ModalModule.forRoot()],
